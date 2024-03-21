@@ -1,0 +1,17 @@
+[smtp]
+server = smtp.example.com
+port = 587
+username = user@example.com
+password = changeme
+
+[email]
+from = your-email@example.com
+bcc = optional-bcc-email@example.com
+default_receiver = my-kindle@kindle.com
+
+[category_mapping]
+ebooks = my-kindle@kindle.com
+ebooks-mommy = mommys-kindle@kindle.com
+
+[preferences]
+preferred_types = epub, azw
